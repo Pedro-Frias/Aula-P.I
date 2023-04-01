@@ -1,0 +1,150 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: black;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  display: flex;
+}
+/* Montagem do barra de navegação: */
+.header{
+  border-bottom: 2px #32B9CD solid;
+}
+
+.header .container {
+  justify-content:  space-between;
+}
+
+.navbar a{
+  text-decoration: none;
+  color: #e3b062;
+}
+/* Identificação da aba atual utilizada */
+.paginaLocal{
+  font-weight: 800;
+}
+
+.logo{
+  color:#32B9CD ;
+  font-weight: 600;
+  width: fit-content;
+}
+
+.navbar{
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+/* Banner da página  */
+.banner{
+  height: fit-content;
+  padding-top: 40px 0 ;
+  background-image: url('Assets/bg-jelly-fish-para_outras_pags.png');
+  background-size: cover;
+}
+
+.banner .container{
+
+  height: 474px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Fundo do login */
+.caixaLogin{
+  background-color: #E5E5E5  ;
+  width: 450px;
+  height: 350px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/*  Edição dentro da caixa de Login: */
+.banner h1{
+  padding: 0%;
+  font-size: 30px;
+  font-weight: bold;
+  color: #DB7093 ;
+}
+
+.login ::placeholder{
+  text-align: center;
+}
+
+.login{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.login span{
+  font-size: 20px;
+  padding: 0;
+  font-weight: bold;
+  color: #DB7093;
+  margin-bottom: 0.5px;
+  padding-right: 1.2px;
+}
+
+.login input{
+  
+  font-size: 15px;
+  height: 40px;
+  width: 250px;
+  border: 1px #32B9CD solid;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  
+}
+
+.login button{
+  margin-top: 10px;
+  margin: auto;
+  width: 150px;
+  height: 50px;
+  background-color: #E6005A;
+  color: white;
+  font-size: 21px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px ;
+}
+
+button:hover{
+  cursor: pointer;
+}
+/* Cabeçalho da página */
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: #32B9CD;
+  padding: 0;
+}
+
+.footer p{
+  margin: 1px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.footer span{
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+}
