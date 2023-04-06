@@ -1,0 +1,31 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(215, 224, 224);
+}
+
+.canvas{
+    background-color: rgb(191, 191, 191);  
+}
+
+.Chart1{   
+    background-color: rgb(187, 242, 239);  
+    border: 1px black solid;
+}
+
+.Chart2{
+    background-color: rgb(187, 242, 239);  
+    border: 1px black solid;
+}
+
+.canvas h1{
+    margin: 6.5px;
+    text-align:center;
+}
+
+
